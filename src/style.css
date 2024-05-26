@@ -36,6 +36,7 @@ form {
   font-size: 16px;
   line-height: 20px;
   color: #e3e3e3;
+  border-radius: 15px;
 }
 
 .submit-button {
