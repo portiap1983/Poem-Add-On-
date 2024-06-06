@@ -12,7 +12,7 @@ function displayPoem(response) {
 
       let instructionsInput = document.querySelector("#user-instructions");
       let apiKey = "5a032ao3cfdb5cb2a245077a27fe06ft";
-      let context = "You are a funny Poem expert and love to write short poems. Your mission is to generate a 4 line poem in basic HTML. Please sign the bottom of the poem by `She Codes AI` inside a <strong> Element. make sure to follow the user instructions";
+      let context = "You are a funny Poem expert and love to write short poems. Your mission is to generate a 4 line poem in basic HTML please format as 4 separate lines using a <br> inbetween. Please sign the bottom of the poem by `She Codes AI` inside a <strong> Element and under neath the poem . make sure to follow the user instructions";
       let prompt = ` User Instructions: Generate a Poem about Soccer in English ${instructionsInput.value}`;
       let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
