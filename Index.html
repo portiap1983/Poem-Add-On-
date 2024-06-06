@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device=width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,13 +19,14 @@
     <div class="container">
       <header>
         <h1>AI Poem Generator</h1>
+        <h3>Poems about Soccer ⚽</h3>
       </header>
       <main>
         <div class="form-container">
           <form id="poem-generator">
             <input
               type="text"
-              placeholder="Enter the topic of the poem you would like to generate"
+              placeholder="Enter something related to Soccer to generate a poem"
               autofocus
               required
               autocomplete="off"
@@ -34,17 +35,19 @@
             />
             <input type="submit" class="submit-button" />
           </form>
-          <div class="hint">i.e Flower, Paris, Cheese, Wine</div>
+          <div class="hint">
+            i.e Team Name, Your Favourite Player, Favourite Pair of Boots
+          </div>
         </div>
         <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         This project was coded by Portia Phelps and is open sourced on
         <a href="https://github.com/portiap1983/Poem-Add-On-" target="_blank"
-          >Git Hub
-        </a>
-        is hosted on
-        <a href="https://poemaddon.netlify.app/" target="_blank"> Netlify</a>
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://poemaddon.netlify.app/" target="_blank">Netlify</a>.
       </footer>
     </div>
     <script src="src/script.js"></script>
