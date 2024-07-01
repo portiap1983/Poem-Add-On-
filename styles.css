@@ -1,0 +1,64 @@
+h1 {
+  font-family: "Playwrite IT Moderna", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 {
+  text-align: center;
+  line-height: 1.5;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 5;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Ensures images wrap to next line if necessary */
+}
+.grid img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+.image-container {
+  margin-top: 20px;
+  text-align: center;
+}
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  border: none; /* Remove default border */
+  background-color: #007bff; /* Button background color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 16px; /* Font size */
+  border-radius: 20px; /* Border radius */
+  margin: 5px; /* Margin around the buttons */
+  cursor: pointer; /* Cursor style on hover */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
